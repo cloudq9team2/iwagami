@@ -1,0 +1,23 @@
+<html>
+<script src="jquery.1.6.4.min.js"></script>
+<body>
+
+	<div> Dlick Me!</div>
+
+
+</body>
+</html>
+<script>
+// jquery code
+$( document).ready( function() {
+	$('div').mouseover(function(){
+		console.log('OVER');
+		$('div').click(function(){
+			console.log('CLICK');
+		});
+		
+	
+	});
+	
+})
+</script>
