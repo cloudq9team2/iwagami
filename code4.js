@@ -52,3 +52,7 @@ $(document).ready( function () {
 		});
 	});
 });
+
+$('div1').click( function () {
+	$('div1').fadeOut( 'slow', function () { $('div').append( '<div>waiting...</div>' ); })
+	});
